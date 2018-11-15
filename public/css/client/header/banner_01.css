@@ -12,17 +12,18 @@
 .new_elements_first {
   width: 100%;
   height: 100%;
-  background-color: #f6f6f6; }
+  background-color: #fff; }
 
 .short-news-top {
   margin-top: 20px;
   margin-left: 20px; }
   .short-news-top .short-news-item {
+    overflow: hidden; text-overflow: ellipsis;
     margin-bottom: 10px;
     width: 300px;
     height: 60px;
     display: grid;
-    grid-template-columns: 60px auto; }
+    grid-template-columns: 60px 240px; }
     .short-news-top .short-news-item .short-news-item-timetag {
       background-color: #a6196f; }
       .short-news-top .short-news-item .short-news-item-timetag .wrap-item-timetag {
