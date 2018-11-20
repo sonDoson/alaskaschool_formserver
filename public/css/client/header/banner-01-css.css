@@ -49,8 +49,8 @@
 
     .banner.cover_01{
         padding: 0;
-        min-height: 400px;
-        height: 400px;
+        min-height: 550px;
+        height: 550px;
     }
 
     .banner:after {
